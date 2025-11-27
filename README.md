@@ -62,10 +62,3 @@ Dates are converted to proper datetime objects to enable time-series analysis.
 You can view the full analysis directly here on GitHub, or open the interactive version in Kaggle:
 
 Kaggle Notebook: *https://www.kaggle.com/code/martynasdiugas/sales*  
-GitHub Notebook: `sales.ipynb`
-
-If you'd like to run it locally:
-
-```bash
-pip install pandas matplotlib
-jupyter notebook sales.ipynb
