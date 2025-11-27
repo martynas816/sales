@@ -1,4 +1,4 @@
-# Sales Data Analysis – Sample Sales Dataset
+# Sample Sales Data Analysis
 
 This project explores a sample sales dataset to understand revenue patterns across
 time, product lines, countries, and deal sizes. The goal is to demonstrate an
@@ -17,14 +17,13 @@ insights.
 
 ## 2. Dataset
 
-- **Source:** Kaggle – Sample Sales Dataset  
-- **Rows:** 2,823 orders  
-- **Columns (examples):**
-  - `ORDERDATE`, `YEAR_ID`, `MONTH_ID`
-  - `PRODUCTLINE`, `DEALSIZE`, `COUNTRY`
-  - `SALES`, `QUANTITYORDERED`, `PRICEEACH`
-
-Dates are converted to proper datetime objects to enable time-series analysis.
+- Source: Kaggle – Sample Sales Dataset  
+- Size: 2,823 sales line items (2003–2005)
+- Key fields:
+  - Time: ORDERDATE → converted from text to datetime
+  - Product: PRODUCTLINE, DEALSIZE
+  - Geography: COUNTRY
+  - Revenue drivers: SALES, QUANTITYORDERED, PRICEEACH
 
 ---
 
@@ -54,7 +53,7 @@ Dates are converted to proper datetime objects to enable time-series analysis.
 
 ---
 
-## 5. How to View / Run
+## 5. How to View
 
 You can view the full analysis directly here on GitHub, or open the interactive version in Kaggle:
 
