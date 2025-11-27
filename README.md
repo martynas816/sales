@@ -13,9 +13,6 @@ insights.
 - **Tech stack:** Python, Pandas, Matplotlib, Jupyter / Kaggle Notebook.
 - **Dataset size:** 2,823 orders (2003–2005).
 
-The full analysis is contained in the Jupyter notebook:
-`Sales_Data_Analysis.ipynb`.
-
 ---
 
 ## 2. Dataset
