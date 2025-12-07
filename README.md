@@ -11,7 +11,6 @@ insights.
 
 - **Objective:** Analyze historical sales to identify key revenue drivers and trends.
 - **Tech stack:** Python, Pandas, Matplotlib, Jupyter / Kaggle Notebook.
-- **Dataset size:** 2,823 orders (2003–2005).
 
 ---
 
@@ -20,7 +19,7 @@ insights.
 - Source: Kaggle – Sample Sales Dataset  
 - Size: 2,823 sales line items (2003–2005)
 - Key fields:
-  - Time: ORDERDATE → converted from text to datetime
+  - Time: ORDERDATE (converted from text to datetime)
   - Product: PRODUCTLINE, DEALSIZE
   - Geography: COUNTRY
   - Revenue drivers: SALES, QUANTITYORDERED, PRICEEACH
@@ -48,8 +47,6 @@ insights.
 - **Top products:** Classic Cars and Vintage Cars are the main revenue drivers.
 - **Top markets:** USA dominates sales, followed by Spain and France.
 - **Deal sizes:** Medium deals contribute the largest share of total revenue.
-
-(See the notebook for charts and detailed commentary.)
 
 ---
 
